@@ -1,0 +1,12 @@
+#该页面基于谷歌浏览器+1680宽度的屏幕进行编写，开发环境为 vuecli +npm +webpack，dist目录为经过webpack打包后生成的静态页面，index.html
+为入口文件，用浏览器打开可看到页面效果,如运行在node环境，则需通过npm 包管理工具安装相应的模块依赖。
+具体步骤：
+1.解压每一个页面的目录至一个文件夹
+2.安装依赖
+npm install
+3.运行：
+npm run dev
+4.默认运行端口8080:
+在浏览器中输入localhost:8080
+5.修改默认端口：
+修改config/index.js文件中：port属性的值即可
